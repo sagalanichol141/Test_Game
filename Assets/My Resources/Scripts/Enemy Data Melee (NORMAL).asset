@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f367d0a51ecb144c9687b370c260e1f, type: 3}
+  m_Name: Enemy Data Melee (NORMAL)
+  m_EditorClassIdentifier: 
+  normalSpeed: 1.5
+  chasingSpeed: 3
+  rotationSpeed: 720
+  stopDistance: 1.25
+  wanderRadius: 3
+  wanderDelay: 3
+  fovRayCount: 16
+  fovRayDistance: 10
+  fovRayHeight: 1
+  fovAngle: 90
+  attackDamage: 5
+  targetTag: Player
+  animatorController: {fileID: 9100000, guid: 9575c11de205b314cae375d09ecc4b72, type: 2}
+  slashSFX: {fileID: 8300000, guid: 65f5be040d96fab46b17be9408bc43f1, type: 3}
+  shootSFX: {fileID: 8300000, guid: e091bb0fff2ba284bb3f617e5fc154c6, type: 3}
